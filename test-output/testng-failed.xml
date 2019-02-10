@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Base.ExcelUtiltemp">
+        <methods>
+          <include name="testA"/>
+          <include name="testC" invocation-numbers="0 1 2"/>
+          <include name="Aftermethod"/>
+        </methods>
+      </class> <!-- com.Base.ExcelUtiltemp -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
